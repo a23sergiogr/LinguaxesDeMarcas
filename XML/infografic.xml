@@ -1,0 +1,47 @@
+    <cambas>
+        <nombre>Sergio Gómez Rial</nombre>
+        <myCualities>
+            <goodCualities>
+                <pcuality> Creative </pcuality>
+                <pcuality> Calm </pcuality>
+                <pcuality> Positive </pcuality>
+            </goodCualities>
+            <badCualities>
+                <ncuality> SA </ncuality>
+                <ncuality> Procrastination </ncuality>
+                <ncuality> Disregard </ncuality>
+            </badCualities>
+        </myCualities>
+        <favoriteSeries>
+            <name>Warhammer</name>
+            <description>My favorite series is warhammer, 
+                it has a mixture of book, a tabletop game, 
+                videgames and they are going to produce a 
+                tv series with Henry Cavil as protagonist.</description>
+        </favoriteSeries>
+        <lastBook>
+            <name>Shadow Slave</name>
+            <information>The last book I read was 
+                Shadow Slave, a written in english webnovel.</information>
+            <opinion>I find it easy to read and I like 
+                the story and the main character.</opinion>    
+        </lastBook>
+        <englishLevel>
+            <certifications>I don’t have any certification.</certifications>
+            <description>I can easily undertand videos 
+                or book in english but speaking is not 
+                samething I’m used to.</description>
+        </englishLevel>
+        <computerScience>
+            <description>I have gone to the first year of 
+                university where I learn a lot about programing  
+                but nothing  about html, css or javascript.</description>
+        </computerScience>
+        <favoriteMusician>
+            <name>Alan Walker</name>
+        </favoriteMusician>
+        <hobbies>
+            <hobbi>Videogames</hobbi>
+            <hobbi>Reading</hobbi>
+        </hobbies>
+    </cambas>

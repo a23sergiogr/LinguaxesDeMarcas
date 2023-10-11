@@ -1,0 +1,42 @@
+<trip>
+    <trabelers>
+        <trabeler DNI="12345678">
+            <name>Name</name>
+            <surname>Surname</surname>  
+        </trabeler>
+        <trabeler DNI="12345678">
+            <name>Name</name>
+            <surname>Surname</surname>  
+        </trabeler>
+    </trabelers>
+
+    <begindate>2024-01-01</begindate>
+
+    <enddate>2024-02-01</enddate>
+
+    <departure>Santiago</departure>
+
+    <destinations>
+        <destination>
+            <cityName>Paris</cityName>
+            <hotelName>JO&amp;JOE Paris Gentilly</hotelName>
+            <numberNigths>10</numberNigths>
+        </destination>
+
+        <destination>
+            <cityName>Marsella</cityName>
+            <hotelName>Sofitel Marseille Vieux Port</hotelName>
+            <numberNigths>10</numberNigths>
+        </destination>
+
+        <destination>
+            <cityName>Niza</cityName>
+            <hotelName>Best Western Plus Hôtel Massena Nice</hotelName>
+            <numberNigths>10</numberNigths>
+        </destination>
+
+    </destinations>
+
+    <price><![CDATA[ El precio será de <2000€> ]]></price>
+    
+</trip>

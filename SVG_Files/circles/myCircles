@@ -1,0 +1,22 @@
+<!– SVG –>
+
+<!doctype html>
+<html>
+  <head>
+    <title>My Circles</title>
+  </head>
+  <body>
+    <svg height="1000" width="1000">
+        <rect x="50" y="50" height="800" width="800" 
+            style="fill:#f5afa3"
+            stroke = "#e63d1f" stroke-width = "10px"/>
+        <g fill="#FF6347" stroke="#0095b6" stroke-width="4">
+          <circle r="15" cx = "250" cy = "450"/>
+          <circle r="15" cx = "350" cy = "450"/>
+          <circle r="15" cx = "450" cy = "450"/>
+          <circle r="15" cx = "550" cy = "450"/>
+          <circle r="15" cx = "650" cy = "450"/>      
+        </g>
+    </svg>
+  </body>
+</html>

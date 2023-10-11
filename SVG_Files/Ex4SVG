@@ -1,0 +1,35 @@
+<!– Exercise 4 –>
+
+<!doctype html>
+<html>
+  <head>
+    <title>SVG Exercise 4</title>
+  </head>
+  <body>
+    <!– Draw an orange rectangle of 300px width and 150px height. –>
+    <svg height = "350" width = "200">
+        <rect x = "20" y = "20" height="300" width="150"
+            style="fill:rgb(255, 175, 0)"/>
+    </svg>
+
+    <!– Draw a square of 200px side. The color must be blue. –>
+    <svg height = "250" width = "250">
+        <rect x = "20" y = "20" height="200" width="200" 
+            style="fill:rgb(12, 138, 255)"/>
+    </svg>
+
+    <!– Draw a purple circle with 150px diameter. –>
+    <svg height = "200" width = "200">
+        <circle r="75" cx = "75" cy = "75"
+            style="fill:rgb(212, 0, 255)"/>
+    </svg>
+    
+    <!– Draw two red lines. –>
+    <svg height = "250" width = "250">
+        <line x1="20" y1="20" x2="200" y2="200" 
+            stroke="red" stroke-width="3"/>º
+        <line x1="200" y1="20" x2="20" y2="200"
+            stroke="red" stroke-width="3">
+    </svg>
+  </body>
+</html>

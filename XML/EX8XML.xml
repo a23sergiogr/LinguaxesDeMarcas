@@ -1,0 +1,20 @@
+<mm xmlns:a="http://www.rr.org" xmlns="http://www.ss.org"> <!--NameSpace ss-->
+
+         <a:nn><!--NameSpace a-->
+
+		<pp xmlns="http://www.tt.org" xmlns:b="http://www.uu.org"><!--NameSpace tt-->
+
+			<b:oo>Hello</b:oo><!--NameSpace b-->
+
+		</pp>
+
+		<c:qq xmlns="http://www.vv.org" xmlns:c="http://www.ww.org"><!--NameSpace ww-->
+
+			<rr>Good bye</rr><!--NameSpace vv-->
+
+		</c:qq>
+
+	</a:nn>
+
+</mm>
+

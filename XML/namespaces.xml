@@ -1,0 +1,15 @@
+<company xmlns="https://www.something.org/all" xmlns:fr="https://www.something.org/fruits" xmlns:co="https://www.something.org/colours">
+<URI>Unified Resourse Identifier</URI>
+<URL>Unified Resourse Locator</URL>
+<URN>Unified Resourse Name</URN>
+<IANA>Internet Assigned Numbers Authority</IANA>
+<HTTP>HyperText Tranfer Protocol</HTTP>
+<RFC>Request for comment</RFC>
+<fuits>
+    <fr:orange fr:id="234">
+    </fr:orange>
+</fuits>
+<colours>
+    <co:orange>
+    <co:orange>
+</colours>
