@@ -1,3 +1,13 @@
 {
+    "name": "Akira Kurosawa",
+    "Birthdate": 1910,
+    "Birthplace": "Omori Tokio, Japan",
+    "Deathdate": 1998,
+    "Deathplace": "Setagaya, Japan",
+    "Movies": [{"name": "Rashōmon",
+                "Filmingdate": }
+                 "Los siete samuráis",
+     "Los sueños de Akira Kurosawa", "Yojimbo", "Ran", "Ikiru"}
     
+    ]
 }
