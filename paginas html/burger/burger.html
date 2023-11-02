@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Creator</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <img src="img/burger-svgrepo-com.svg" alt="Burger" width="100">
+    <hr>
+    <h1>Create a Burger</h1>
+    <form>
+
+        <label for="protein">What type of protein would you like? </label>
+        <input type = "text" name="protein" id="protein">
+            
+
+        <hr><br>
+        <label for="patties">How many patties would you like? </label>
+        <input type = "number" name="patties" id="patties">
+
+
+         <hr><br>
+        <label for="pattieCook">How do you want your pattie cook</label><br>
+        <label for="rare">Rare</label>
+        <input type="range" name="pattieCook" id="pattieCook" max="5" min="1">
+        <label for="WellDone">Well-Done</label>
+
+
+        <hr><br>What topping would you like?</br>
+        <input name="lettuce" type="checkbox" value="lettuce" id="manager"/>
+        <label for="lettuce">Lettuce</label>
+        <input name="tomato" type="checkbox" value="tomato" id="tomato"/>
+        <label for="tomato">Tomato</label>
+        <input name="onio" type="checkbox" value="onio" id="onio"/>
+        <label for="onio">Onion</label>
+
+
+        <hr><br>Would you like to add chesse?</br>
+        <label><input type="radio" name="chesse?" value="chesse"> Yes</label>
+        <label><input type="radio" name="chesse?" value="nochesse"> No</label>
+
+
+        <hr><br>
+        <label for="bun">What type of bun would you like? </label>
+        <select id="bun" name="bun">
+            <option value="" selected="selected">- select -</option>
+            <option value="sesame">Sesame</option>
+            <option value="other">Othre</option>
+        </select>
+
+
+        <hr><br>
+        <label for="souce">What type of souce would you like? </label>
+        <input type = "text" name="souce" id="souce">
+
+        <hr><br>Anything else you want to add?<br>
+        <label for="other"></label>
+        <textarea id="other" name="presentation" cols="40" rows="5"></textarea>
+            
+        <hr><br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
