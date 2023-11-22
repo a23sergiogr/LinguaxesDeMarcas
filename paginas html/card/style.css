@@ -3,6 +3,11 @@
     color: #FF9EF9;
 }
 
+body{
+    display: flex;
+    justify-content:center;
+}
+
 article, img, button{
 
     border: solid;
@@ -20,6 +25,7 @@ article{
     border-radius: 15px; 
 
     width: 300px;
+    
 }
 
 img{
