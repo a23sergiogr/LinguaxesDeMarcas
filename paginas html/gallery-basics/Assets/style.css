@@ -1,0 +1,43 @@
+*{
+    color: aliceblue;
+}
+
+header{
+    background-color: #6F3A1B;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+article{
+    background-color: #1B506F;
+    width: 260px;
+    border-radius: 10px;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column-reverse ;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 100%;
+    width: 200px;
+}
+footer{
+    background-color: #6F3A1B;
+    display: flex;
+    justify-content: center;
+}
