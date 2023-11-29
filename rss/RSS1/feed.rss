@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Games</title>
+        <description>Games online</description>
+        <link>https://a23sergiogr.github.io/RSS/feed.rss</link>
+        <pubDate>Sat, 12 Nov 2022 18:30:02 GMT</pubDate>
+        <managingEditor>johndoe@example.com (John Doe)</managingEditor>
+        <item>
+            <title>Ikarian</title>
+            <link>http://example.org/test.html</link>
+            <pubDate>Sat, 12 Nov 2022 18:30:02 GMT</pubDate>
+            <description>Ikarian</description>
+        </item>
+    </channel>
+</rss>

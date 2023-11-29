@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 *{
     color: aliceblue;
     margin: 0;
@@ -12,13 +15,17 @@ header{
     justify-content: center;
 }
 
+h1{
+    font-family: 'Vina Sans', sans-serif;
+    font-size: 60px;
+}
+
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
-    padding-top: 40px;
-    padding-bottom: 40px;
+    height: 500px;
 }
 
 article{
@@ -26,11 +33,14 @@ article{
     width: 260px;
     border-radius: 10px;
     padding-top: 10px;
+    height: 300px;
 
     display: flex;
     flex-direction: column-reverse ;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+
+    font-family: 'Karla', sans-serif;
 }
 
 img{
@@ -39,6 +49,13 @@ img{
 }
 footer{
     background-color: #6F3A1B;
+    height: 98px;
+
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+p{
+    font-family: 'Karla', sans-serif;
 }
