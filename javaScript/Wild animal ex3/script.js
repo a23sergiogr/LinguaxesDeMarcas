@@ -1,3 +1,9 @@
+function enter(e){
+    if (e.key === 'Enter') {
+      check()
+    }
+};
+
 function check(){
     let name=document.getElementById("name");
     let result=document.getElementById("result");
@@ -9,8 +15,6 @@ function check(){
         result.style.color = "#2BE058" 
 
         result.textContent = "Bien hecho"
-
-
     }
     else{
         result.style = "visibility: visible"
